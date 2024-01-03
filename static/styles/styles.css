@@ -1,0 +1,201 @@
+        /* CSS styles here... */
+
+        /* Custom navbar color */
+        .body{
+            background-color: #EED6D3;
+            
+        }
+        .navigation {
+            background-color: #67595E;
+            color: #EED6D3;
+            font-family: "Caveat Brush";
+            padding: 20px;
+        }
+        
+        .btn-color-1{
+	        color: #E8B4B8;
+	        background-color: #A49393;
+	        font-weight: bold;
+	        letter-spacing: 0.05em;
+	    }
+	    
+	    .btn-color-1:hover,
+	    .btn-color-1:active,
+	    .btn-color-1: focus,
+	    .btn-color-1.active{
+		    background: #EED6D3;
+		    color: #67595E;
+		}
+        
+        .main-heading{
+        font-family:"Clicker Script";
+        font-size:35px;
+        }
+        
+        .hero-area{
+        background-color: #EED6D3;
+        font-family:"Caveat Brush";
+        color: #A49393;
+        padding: 3rem;
+        }
+        
+        .hero-greeting{
+        font-family:"Clicker script";
+        font-size:2.5em;
+        }
+        
+        .introduction{
+	        font-size:1.5em;
+	        }
+        
+        .my-pic{
+        background-color:#EED6D3;
+        }
+
+        .my-pic .container{
+            width: 65%;
+        }
+
+        .time-line{
+            background-color:#EED6D3;
+            font-family:"Caveat Brush";
+            font-size:20px;
+            color:#A49393;
+            padding: 1em;
+            width: auto;
+            }
+
+        	.education-content{
+                padding: 1.5em;
+                background-color:#EED6D3;
+                padding-left: 3rem;
+            }
+
+            .education-title{
+                padding-bottom: 1rem;
+                color:#A49393;
+                font-family: 'Clicker Script';
+                
+            }
+            
+            .formal-education{
+                color:#67595E;
+                font-family: 'Caveat Brush';
+            }
+            
+            .education-table {
+                width: 100%;
+                border-collapse: collapse;
+                padding-bottom: 5rem;
+            }
+            .education-table th, .education-table td {
+                border: 1px solid #67595E;
+                padding: 8px;
+                text-align: left;
+                font-family: "Caveat Brush";
+                color:#A49393;
+            }
+            
+            .education-table th {
+                color: #67595E;
+                background-color: #A49393;
+                font-weight: bold;
+            }
+            
+            .education-table td ul {
+                margin: 0;
+                padding-left: 20px;
+            }
+            
+            .timeline{
+                display:grid;
+                grid-template-columns: repeat(2,1fr);
+                background-color: #EED6D3;
+            }
+            
+            .tl-title{
+                letter-spacing: 1px;
+                font-size: 1.3rem;
+                color: #A49393;
+                
+            }
+            
+            .tl-title-2{
+                letter-spacing: 1px;
+                font-size: 1.3rem;
+                font-family: "Caveat Brush";
+                color: #67595;
+                 
+            }
+            
+            .tl-content{
+                border-left: 2px solid #b2ac88;
+                padding-left: 2rem;
+                position: relative;
+                padding-bottom: 2rem;
+                
+            }
+            
+            .tl-title-2::before{
+                content:"";
+                position: absolute;
+                width: .7rem;
+                height: .7rem;
+                background-color: #67595E;
+                border-radius: 50%;
+                transform: translateX(-50%);
+                left: 0;
+            }
+            
+            .right-title{
+                padding-bottom: 1.5rem;
+                padding-top: 1.5rem;
+            }
+            
+            .para{
+                font-size: 1rem;
+                color: #A49393;
+                font-family: 'Comic Neue';
+            }
+            
+            .section-courses-attended{
+                color: #67595E;
+                font-family: "Caveat Brush";
+                padding-right: 3rem;
+                }
+                
+            .tl-title{
+            color:#67595E;
+            }
+            
+            .right-title{
+            background-color: #EED6D3;
+            Font-family: "Caveat Brush";
+            color: #67595E;
+            }
+            
+            .tl-title{
+            color:#67595e;
+            font-family: "caveat Brush";
+            }
+
+            .section-experience{
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            
+            .list-group .list-group-flush{
+                background-color: #67595E;
+            }
+            
+            .contacts{
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            .projects{
+                color: #67595E;
+                font-family: "Caveat Brush";
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            
